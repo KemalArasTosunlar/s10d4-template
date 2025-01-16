@@ -17,6 +17,10 @@ export default function Form() {
       .post(`https://65b36193770d43aba479a2f2.mockapi.io/users`, data)
       .then((res) => {
         history.push('/');
+      })
+      .catch((error) => {
+        console.error("There was an error creating the contact!", error);
+        // Optionally, you can set an error state to display a message to the user
       });
   };
 

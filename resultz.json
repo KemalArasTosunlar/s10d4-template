@@ -1,0 +1,138 @@
+{
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 9,
+  "numPassedTests": 5,
+  "numFailedTests": 4,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1737024907810,
+  "success": false,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " App.jsxe QueryClientProvider eklenmiş",
+          "status": "passed",
+          "title": "App.jsxe QueryClientProvider eklenmiş",
+          "duration": 45,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " SideBar componentinde useEffect kaldırılmış",
+          "status": "passed",
+          "title": "SideBar componentinde useEffect kaldırılmış",
+          "duration": 17,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Contact componentinde useEffect kaldırılmış",
+          "status": "passed",
+          "title": "Contact componentinde useEffect kaldırılmış",
+          "duration": 4,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Contactlar listeleniyor",
+          "status": "failed",
+          "title": "Contactlar listeleniyor",
+          "duration": 1011,
+          "failureMessages": [
+            "Unable to find an element by: [data-testid=\"contact\"]\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " New Butonu Çalışıyor",
+          "status": "passed",
+          "title": "New Butonu Çalışıyor",
+          "duration": 91,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Yeni kullanıcı kayıt ediliyor",
+          "status": "failed",
+          "title": "Yeni kullanıcı kayıt ediliyor",
+          "duration": 2107,
+          "failureMessages": [
+            "Unable to find an element with the text: Emre Sahiner. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Home Butonu Çalışıyor",
+          "status": "passed",
+          "title": "Home Butonu Çalışıyor",
+          "duration": 93,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kullanıcı detaylarını gösteriyor",
+          "status": "failed",
+          "title": "Kullanıcı detaylarını gösteriyor",
+          "duration": 1005,
+          "failureMessages": [
+            "Unable to find an element by: [data-testid=\"contact\"]\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            ""
+          ],
+          "fullName": " Kullanıcıyı siliyor",
+          "status": "failed",
+          "title": "Kullanıcıyı siliyor",
+          "duration": 1007,
+          "failureMessages": [
+            "Unable to find an element by: [data-testid=\"contact\"]\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"sidebar\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<h1>\u001b[39m\n        \u001b[0mWiTech Contacts\u001b[0m\n      \u001b[36m</h1>\u001b[39m\n      \u001b[36m<div>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/contacts/new\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mNew\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n        \u001b[36m<a\u001b[39m\n          \u001b[33mhref\u001b[39m=\u001b[32m\"/\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<button\u001b[39m\n            \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[0mHome\u001b[0m\n          \u001b[36m</button>\u001b[39m\n        \u001b[36m</a>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n      \u001b[36m<nav>\u001b[39m\n        \u001b[36m<p>\u001b[39m\n          \u001b[36m<i>\u001b[39m\n            \u001b[0mNo contacts\u001b[0m\n          \u001b[36m</i>\u001b[39m\n        \u001b[36m</p>\u001b[39m\n      \u001b[36m</nav>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mid\u001b[39m=\u001b[32m\"detail\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<p\u001b[39m\n        \u001b[33mid\u001b[39m=\u001b[32m\"zero-state\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[0mWelcome to WiTech Contacts\u001b[0m\n      \u001b[36m</p>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+          ],
+          "location": {
+            "line": 162,
+            "column": 27
+          }
+        }
+      ],
+      "startTime": 1737024910201,
+      "endTime": 1737024915581,
+      "status": "failed",
+      "message": "",
+      "name": "C:/Users/Administrator/s10d4-template/src/__tests__/index.test.jsx"
+    }
+  ]
+}

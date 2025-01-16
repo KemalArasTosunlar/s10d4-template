@@ -1,17 +1,10 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { useContacts } from '../services/tanStack';
 
 export default function SideBar() {
-  const [contacts, setContacts] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get('https://65b36193770d43aba479a2f2.mockapi.io/users')
-      .then((res) => {
-        setContacts(res.data);
-      });
-  });
+  const { data: contacts = [] } = useContacts();
 
   return (
     <div id="sidebar">

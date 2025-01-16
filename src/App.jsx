@@ -1,14 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import SideBar from './components/SideBar.jsx';
 import Contact from './components/Contact.jsx';
 import Home from './components/Home.jsx';
 import Form from './components/Form.jsx';
 import { Switch, Route } from 'react-router-dom';
 
+const queryClient = new QueryClient();
+
 export default function App() {
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <SideBar />
       <div id="detail">
         <Switch>
@@ -26,6 +29,6 @@ export default function App() {
           </Route>
         </Switch>
       </div>
-    </>
+    </QueryClientProvider>
   );
 }
